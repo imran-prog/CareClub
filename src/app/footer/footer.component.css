@@ -1,14 +1,15 @@
 .footer {
     width: 100%;
     height: 100%;
-    border: 1px solid rgba(196, 196, 196, 0.6);
+    margin-left: 150px;
 }
 
 .footer-logo {
     margin-top: 60px;
     margin-left: 185px;
-    height: 60px;
-    margin-bottom: 30px;
+    height: 40px;
+    margin-bottom: 20px;
+
 }
 
 .footer-text {
@@ -19,4 +20,41 @@
     font-size: 15px;
     width: 315px;
     margin-bottom: 100px;
+}
+
+.footer-links-first {
+    margin-top: 60px;
+    margin-left: 185px;
+    height: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.links-heading {
+    color: #02A95C;
+    font-family: "DM Sans";
+    font-size: 17px;
+}
+
+.list-item {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "DM Sans";
+    margin-bottom: 20px;
+}
+
+.footer-links-second {
+    margin-top: 60px;
+    margin-left: 185px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+
+.footer-links-third {
+    margin-top: 60px;
+    margin-left: 185px;
+    height: 60px;
+    margin-bottom: 20px;
 }
