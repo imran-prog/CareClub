@@ -1,0 +1,29 @@
+h1.hero-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    width: 844px;
+    margin: 85px auto 90px;
+}
+
+h3.sec-title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-stats {
+    width: 1050px;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid #DCDEDD;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.17));
+    border-radius: 20px;
+}
