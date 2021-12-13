@@ -58,3 +58,40 @@
     height: 60px;
     margin-bottom: 20px;
 }
+
+
+.copyright {
+    margin-left: 185px;
+    margin-bottom: 60px;
+}
+
+.footer-last-sec {
+    justify-content: space-between;
+}
+
+
+
+
+.copyright > p {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #1E2833;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.last-cloumn {
+    margin-right: 120px;
+}
+
+
+.last-cloumn > p {
+    margin-left: 25px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: normal;
+    color: #1E2833;
+
+}
