@@ -49,3 +49,9 @@ li.nav-item > button {
     border-radius: 20px;
     background-color: #fff;
 }
+
+.dark-nav {
+    font-weight: 500!important;
+    text-decoration-line: underline!important;
+    color: #315659!important;
+}
