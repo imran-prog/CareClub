@@ -1,97 +1,87 @@
 .footer {
-    width: 100%;
-    height: 100%;
-    margin-left: 150px;
+  width: 100%;
+  height: 100%;
 }
 
 .footer-logo {
-    margin-top: 60px;
-    margin-left: 185px;
-    height: 40px;
-    margin-bottom: 20px;
-
+  margin-top: 60px;
+  margin-left: 185px;
+  height: 40px;
+  margin-bottom: 20px;
 }
 
 .footer-text {
-    margin-left: 185px;
-    line-height: 20px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    width: 315px;
-    margin-bottom: 100px;
+  margin-left: 185px;
+  line-height: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  width: 315px;
+  margin-bottom: 100px;
 }
 
 .footer-links-first {
-    margin-top: 60px;
-    margin-left: 185px;
-    height: 60px;
-    margin-bottom: 20px;
-    
+  margin-top: 60px;
+  margin-left: 185px;
+  height: 60px;
+  margin-bottom: 20px;
 }
 
 .links-heading {
-    color: #02A95C;
-    font-family: "DM Sans";
-    font-size: 17px;
+  color: #02a95c;
+  font-family: "DM Sans";
+  font-size: 17px;
 }
 
 .list-item {
-    font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    font-family: "DM Sans";
-    margin-bottom: 20px;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "DM Sans";
+  margin-bottom: 20px;
 }
 
 .footer-links-second {
-    margin-top: 60px;
-    margin-left: 185px;
-    height: 60px;
-    margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 185px;
+  height: 60px;
+  margin-bottom: 20px;
 }
-
 
 .footer-links-third {
-    margin-top: 60px;
-    margin-left: 185px;
-    height: 60px;
-    margin-bottom: 20px;
+  margin-top: 60px;
+  margin-left: 185px;
+  height: 60px;
+  margin-bottom: 20px;
 }
 
-
 .copyright {
-    margin-left: 185px;
-    margin-bottom: 60px;
+  margin-left: 185px;
+  margin-bottom: 60px;
 }
 
 .footer-last-sec {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
-
-
-
 .copyright > p {
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    color: #1E2833;
-    mix-blend-mode: normal;
-    opacity: 0.5;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: #1e2833;
+  mix-blend-mode: normal;
+  opacity: 0.5;
 }
 
 .last-cloumn {
-    margin-right: 120px;
+  margin-right: 120px;
 }
 
-
 .last-cloumn > p {
-    margin-left: 25px;
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: normal;
-    color: #1E2833;
-
+  margin-left: 25px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: normal;
+  color: #1e2833;
 }
