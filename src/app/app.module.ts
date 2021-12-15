@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FundpostComponent } from './fundpost/fundpost.component';
 import { SummaryComponent } from './fundpost/summary/summary.component';
 import { FundDonationComponent } from './fundpost/fund-donation/fund-donation.component';
+import { PopProductsComponent } from './pop-products/pop-products.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FundDonationComponent } from './fundpost/fund-donation/fund-donation.co
     FundpostComponent,
     SummaryComponent,
     FundDonationComponent,
+    PopProductsComponent,
   ],
   imports: [
     BrowserModule,
