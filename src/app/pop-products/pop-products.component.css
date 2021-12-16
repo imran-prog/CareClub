@@ -1,0 +1,118 @@
+.sec-title {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+}
+
+.popular-prod {
+  margin-top: 50px;
+  width: 100%;
+}
+
+li.pop-prod-item {
+  width: 280px;
+  height: 350px;
+  border: 2px solid #e7e7e7;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+li.pop-prod-item:last-child {
+  margin-right: 0;
+}
+
+ul.pop-prod-list {
+  justify-content: center;
+}
+
+.pop-image > img {
+  border-radius: 20px;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+}
+
+.pop-products {
+  margin-bottom: 90px;
+}
+
+.info-location > p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.65);
+  margin: 0;
+}
+
+.info-location > svg {
+  width: 15px;
+  height: 15px;
+  color: rgba(0, 0, 0, 0.5) !important;
+  margin-right: 7px;
+}
+
+.info-location {
+  margin-top: 15px;
+}
+
+.pop-info {
+  padding: 0 8px;
+}
+
+h2.info-title {
+  margin: 10px 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.info-stats {
+  margin-top: 18px;
+}
+
+p.stats-time {
+  font-family: "Cabin";
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+}
+
+progress#stats-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+}
+
+progress#stats-bar::-webkit-progress-bar {
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 20px;
+}
+
+progress#stats-bar::-webkit-progress-value {
+  background: #02a95c;
+  border-radius: 20px;
+}
+
+p.stats-num {
+  margin: 10px 0 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+p.stats-num > span {
+  font-weight: 500;
+  color: #000000;
+}

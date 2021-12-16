@@ -10,6 +10,19 @@ import { FooterComponent } from './footer/footer.component';
 import { FundpostComponent } from './fundpost/fundpost.component';
 import { SummaryComponent } from './fundpost/summary/summary.component';
 import { FundDonationComponent } from './fundpost/fund-donation/fund-donation.component';
+import { PopProductsComponent } from './pop-products/pop-products.component';
+import { FundDonateComponent } from './donate/fund-donate/fund-donate.component';
+import { GenDonateComponent } from './donate/gen-donate/gen-donate.component';
+import { DonateComponent } from './donate/donate.component';
+import { FundmeComponent } from './fundme/fundme.component';
+import { BioComponent } from './fundme/bio/bio.component';
+import { ExtraDetailComponent } from './fundme/extra-detail/extra-detail.component';
+import { PopupComponent } from './popup/popup.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ProfileMenuComponent } from './profile/profile-menu/profile-menu.component';
+import { ProfileDataComponent } from './profile/profile-data/profile-data.component';
+import { DirectoryComponent } from './directory/directory.component';
+import { DirListComponent } from './directory/dir-list/dir-list.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +34,19 @@ import { FundDonationComponent } from './fundpost/fund-donation/fund-donation.co
     FundpostComponent,
     SummaryComponent,
     FundDonationComponent,
+    PopProductsComponent,
+    FundDonateComponent,
+    GenDonateComponent,
+    DonateComponent,
+    FundmeComponent,
+    BioComponent,
+    ExtraDetailComponent,
+    PopupComponent,
+    ProfileComponent,
+    ProfileMenuComponent,
+    ProfileDataComponent,
+    DirectoryComponent,
+    DirListComponent,
   ],
   imports: [
     BrowserModule,
