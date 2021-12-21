@@ -1,1 +1,69 @@
-<p>profile-data works!</p>
+<div class="main-profile">
+  <div class="profile-bio flex">
+    <div class="bio-data flex">
+      <div class="bio-image">
+        <img src="assets/images/face.jpg" alt="" />
+      </div>
+      <div class="main-data">
+        <h4 class="green">Arif Lohar</h4>
+        <p>ariglohar111@gamil.com</p>
+      </div>
+    </div>
+    <div class="bio-button">
+      <button class="bg-green">Edit Profile</button>
+    </div>
+  </div>
+  <div class="month-stats">
+    <h3 class="main-title">Monthly Donations</h3>
+    <ul class="flex">
+      <li class="month-item">
+        <div class="top flex">
+          <p class="month-name">Jan</p>
+          <p class="month-donation"><span>3</span> Donations</p>
+        </div>
+        <p class="month-money">Rs. 1200</p>
+      </li>
+      <li class="month-item">
+        <div class="top flex">
+          <p class="month-name">Dec</p>
+          <p class="month-donation"><span>3</span> Donations</p>
+        </div>
+        <p class="month-money">Rs. 1200</p>
+      </li>
+      <li class="month-item">
+        <div class="top flex">
+          <p class="month-name">Nov</p>
+          <p class="month-donation"><span>3</span> Donations</p>
+        </div>
+        <p class="month-money">Rs. 1200</p>
+      </li>
+    </ul>
+  </div>
+  <div class="recent-stats">
+    <h3 class="main-title">Recent Donations</h3>
+    <div class="recent-donations-container">
+      <ul>
+        <li class="recent-list flex" *ngFor="let item of [1, 2, 3]">
+          <div class="recent-data flex">
+            <div class="recent-image">
+              <img src="assets/images/book.jpg" alt="" />
+            </div>
+            <div class="main-recent">
+              <h4 class="recent-tile">Books for BS in Medical Science</h4>
+              <div class="flex recent-location">
+                <span
+                  class="iconify"
+                  data-icon="el:map-marker"
+                  style="color: white"
+                ></span>
+                <p>Air University, Islamabad</p>
+              </div>
+              <p class="green">Rs. 600</p>
+            </div>
+            <p class="recent-date">13/01/2022</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
