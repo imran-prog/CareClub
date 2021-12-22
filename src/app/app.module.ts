@@ -23,6 +23,7 @@ import { ProfileMenuComponent } from './profile/profile-menu/profile-menu.compon
 import { ProfileDataComponent } from './profile/profile-data/profile-data.component';
 import { DirectoryComponent } from './directory/directory.component';
 import { DirListComponent } from './directory/dir-list/dir-list.component';
+import { ProfileDonationsComponent } from './profile/profile-donations/profile-donations.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { DirListComponent } from './directory/dir-list/dir-list.component';
     ProfileDataComponent,
     DirectoryComponent,
     DirListComponent,
+    ProfileDonationsComponent,
   ],
   imports: [
     BrowserModule,
