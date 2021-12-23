@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { LoaderService } from './service/loader.service';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +27,8 @@ import { ProfileDataComponent } from './profile/profile-data/profile-data.compon
 import { DirectoryComponent } from './directory/directory.component';
 import { DirListComponent } from './directory/dir-list/dir-list.component';
 import { ProfileDonationsComponent } from './profile/profile-donations/profile-donations.component';
+import { LoaderComponent } from './loader/loader.component';
+import { LoaderInterceptor } from './interceptors/loader.interceptor';
 
 @NgModule({
   declarations: [
@@ -49,12 +54,13 @@ import { ProfileDonationsComponent } from './profile/profile-donations/profile-d
     DirectoryComponent,
     DirListComponent,
     ProfileDonationsComponent,
+    LoaderComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
+  imports: [BrowserModule, AppRoutingModule, MatProgressBarModule],
+  providers: [
+    LoaderService,
+    { provide: HTTP_INTERCEPTORS, useClass: LoaderInterceptor, multi: true },
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
