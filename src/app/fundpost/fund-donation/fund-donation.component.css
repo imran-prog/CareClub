@@ -1,9 +1,157 @@
 .fund-donation {
-  border: 2px solid #c4c4c4;
   box-sizing: border-box;
   filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.4));
   border-radius: 20px;
   width: 380px;
   background-color: #fff;
   padding: 30px;
+}
+
+.fund-stats > p {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.fund-stats > p > span {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+
+progress#stats-bar {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+}
+
+progress#stats-bar::-webkit-progress-bar {
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 20px;
+}
+
+progress#stats-bar::-webkit-progress-value {
+  background: #02a95c;
+  border-radius: 20px;
+}
+
+.flex.stats-info > p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.flex.stats-info {
+  justify-content: space-between;
+  margin: 15px 0 40px;
+}
+
+.flex.stats-info > p > span {
+  font-weight: 500;
+  color: #000000;
+}
+
+.fund-button > button {
+  width: 100%;
+  height: 60px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+ul.info-list {
+  margin-top: 40px;
+}
+
+li.info-item {
+  height: 96px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+}
+
+li.info-item:last-child {
+  border-bottom: 0;
+}
+
+.info-logo {
+  background: rgba(2, 169, 92, 0.3);
+  height: 80px;
+  width: 80px;
+  border-radius: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.info-logo > svg {
+  width: 36px;
+  height: 36px;
+}
+
+.info-detail {
+  width: 68%;
+  height: 80px;
+  align-self: center;
+}
+
+p.list-name {
+  font-size: 20px;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px 0 5px;
+}
+
+.list-price > p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.8);
+  width: 82px;
+}
+
+.break {
+  width: 8px;
+  height: 8px;
+  background: rgba(2, 169, 92, 0.6);
+  border-radius: 8px;
+  align-self: center;
+  margin-right: 12px;
+}
+
+.list-price > span {
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.social-box {
+  width: 30px;
+  height: 30px;
+  background: #cfcfcf;
+  border-radius: 30px;
+  margin-right: 10px;
+}
+
+.social-container {
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.social-box > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
