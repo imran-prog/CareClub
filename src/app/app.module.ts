@@ -29,6 +29,16 @@ import { DirListComponent } from './directory/dir-list/dir-list.component';
 import { ProfileDonationsComponent } from './profile/profile-donations/profile-donations.component';
 import { LoaderComponent } from './loader/loader.component';
 import { LoaderInterceptor } from './interceptors/loader.interceptor';
+import { AccountComponent } from './account/account.component';
+import { SignupComponent } from './account/signup/signup.component';
+import { SigninComponent } from './account/signin/signin.component';
+import { AlertComponent } from './account/alert/alert.component';
+import { ForgetPassComponent } from './account/forget-pass/forget-pass.component';
+import { ResetPassComponent } from './account/reset-pass/reset-pass.component';
+import { VerifyMailComponent } from './account/verify-mail/verify-mail.component';
+import { AdminComponent } from './account/admin/admin.component';
+import { EditAccountComponent } from './account/admin/edit-account/edit-account.component';
+import { ListComponent } from './account/admin/list/list.component';
 
 @NgModule({
   declarations: [
@@ -55,6 +65,16 @@ import { LoaderInterceptor } from './interceptors/loader.interceptor';
     DirListComponent,
     ProfileDonationsComponent,
     LoaderComponent,
+    AccountComponent,
+    SignupComponent,
+    SigninComponent,
+    AlertComponent,
+    ForgetPassComponent,
+    ResetPassComponent,
+    VerifyMailComponent,
+    AdminComponent,
+    EditAccountComponent,
+    ListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, MatProgressBarModule],
   providers: [

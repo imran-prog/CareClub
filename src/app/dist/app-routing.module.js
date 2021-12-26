@@ -15,6 +15,11 @@ var donate_component_1 = require("./donate/donate.component");
 var profile_component_1 = require("./profile/profile.component");
 var directory_component_1 = require("./directory/directory.component");
 var fundme_component_1 = require("./fundme/fundme.component");
+var signin_component_1 = require("./account/signin/signin.component");
+var signup_component_1 = require("./account/signup/signup.component");
+var verify_mail_component_1 = require("./account/verify-mail/verify-mail.component");
+var forget_pass_component_1 = require("./account/forget-pass/forget-pass.component");
+var reset_pass_component_1 = require("./account/reset-pass/reset-pass.component");
 var routes = [
     { path: '', component: home_component_1.HomeComponent },
     { path: 'fund', component: fundpost_component_1.FundpostComponent },
@@ -22,6 +27,11 @@ var routes = [
     { path: 'profile', component: profile_component_1.ProfileComponent },
     { path: 'dir', component: directory_component_1.DirectoryComponent },
     { path: 'fundme', component: fundme_component_1.FundmeComponent },
+    { path: 'login', component: signin_component_1.SigninComponent },
+    { path: 'register', component: signup_component_1.SignupComponent },
+    { path: 'verify-email', component: verify_mail_component_1.VerifyMailComponent },
+    { path: 'forget-password', component: forget_pass_component_1.ForgetPassComponent },
+    { path: 'reset-password', component: reset_pass_component_1.ResetPassComponent },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
