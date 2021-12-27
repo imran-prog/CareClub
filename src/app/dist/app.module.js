@@ -9,9 +9,8 @@ exports.__esModule = true;
 exports.AppModule = void 0;
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
-var progress_bar_1 = require("@angular/material/progress-bar");
-var loader_service_1 = require("./service/loader.service");
-var http_1 = require("@angular/common/http");
+var http_client_1 = require("@ngx-loading-bar/http-client");
+var core_2 = require("@ngx-loading-bar/core");
 var app_routing_module_1 = require("./app-routing.module");
 var app_component_1 = require("./app.component");
 var home_component_1 = require("./home/home.component");
@@ -36,7 +35,16 @@ var directory_component_1 = require("./directory/directory.component");
 var dir_list_component_1 = require("./directory/dir-list/dir-list.component");
 var profile_donations_component_1 = require("./profile/profile-donations/profile-donations.component");
 var loader_component_1 = require("./loader/loader.component");
-var loader_interceptor_1 = require("./interceptors/loader.interceptor");
+var account_component_1 = require("./account/account.component");
+var signup_component_1 = require("./account/signup/signup.component");
+var signin_component_1 = require("./account/signin/signin.component");
+var alert_component_1 = require("./account/alert/alert.component");
+var forget_pass_component_1 = require("./account/forget-pass/forget-pass.component");
+var reset_pass_component_1 = require("./account/reset-pass/reset-pass.component");
+var verify_mail_component_1 = require("./account/verify-mail/verify-mail.component");
+var admin_component_1 = require("./account/admin/admin.component");
+var edit_account_component_1 = require("./account/admin/edit-account/edit-account.component");
+var list_component_1 = require("./account/admin/list/list.component");
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -66,12 +74,24 @@ var AppModule = /** @class */ (function () {
                 dir_list_component_1.DirListComponent,
                 profile_donations_component_1.ProfileDonationsComponent,
                 loader_component_1.LoaderComponent,
+                account_component_1.AccountComponent,
+                signup_component_1.SignupComponent,
+                signin_component_1.SigninComponent,
+                alert_component_1.AlertComponent,
+                forget_pass_component_1.ForgetPassComponent,
+                reset_pass_component_1.ResetPassComponent,
+                verify_mail_component_1.VerifyMailComponent,
+                admin_component_1.AdminComponent,
+                edit_account_component_1.EditAccountComponent,
+                list_component_1.ListComponent,
             ],
-            imports: [platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule, progress_bar_1.MatProgressBarModule],
-            providers: [
-                loader_service_1.LoaderService,
-                { provide: http_1.HTTP_INTERCEPTORS, useClass: loader_interceptor_1.LoaderInterceptor, multi: true },
+            imports: [
+                platform_browser_1.BrowserModule,
+                app_routing_module_1.AppRoutingModule,
+                http_client_1.LoadingBarHttpClientModule,
+                core_2.LoadingBarModule,
             ],
+            providers: [],
             bootstrap: [app_component_1.AppComponent]
         })
     ], AppModule);

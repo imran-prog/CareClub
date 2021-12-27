@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { MatProgressBarModule } from '@angular/material/progress-bar';
-import { LoaderService } from './service/loader.service';
-import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { LoadingBarModule } from '@ngx-loading-bar/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,7 +27,6 @@ import { DirectoryComponent } from './directory/directory.component';
 import { DirListComponent } from './directory/dir-list/dir-list.component';
 import { ProfileDonationsComponent } from './profile/profile-donations/profile-donations.component';
 import { LoaderComponent } from './loader/loader.component';
-import { LoaderInterceptor } from './interceptors/loader.interceptor';
 import { AccountComponent } from './account/account.component';
 import { SignupComponent } from './account/signup/signup.component';
 import { SigninComponent } from './account/signin/signin.component';
@@ -76,11 +74,13 @@ import { ListComponent } from './account/admin/list/list.component';
     EditAccountComponent,
     ListComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, MatProgressBarModule],
-  providers: [
-    LoaderService,
-    { provide: HTTP_INTERCEPTORS, useClass: LoaderInterceptor, multi: true },
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    LoadingBarHttpClientModule,
+    LoadingBarModule,
   ],
+  providers: [],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

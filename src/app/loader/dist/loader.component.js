@@ -9,11 +9,7 @@ exports.__esModule = true;
 exports.LoaderComponent = void 0;
 var core_1 = require("@angular/core");
 var LoaderComponent = /** @class */ (function () {
-    function LoaderComponent(loaderService) {
-        this.loaderService = loaderService;
-        this.color = '#02a95c';
-        this.value = 50;
-        this.isLoading = this.loaderService.isLoading;
+    function LoaderComponent() {
     }
     LoaderComponent.prototype.ngOnInit = function () { };
     LoaderComponent = __decorate([
