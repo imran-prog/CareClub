@@ -1,5 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { LoadingBarHttpClientModule } from '@ngx-loading-bar/http-client';
+import { LoadingBarModule } from '@ngx-loading-bar/core';
+import { CommonService } from './service/common.service';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -23,6 +28,18 @@ import { ProfileMenuComponent } from './profile/profile-menu/profile-menu.compon
 import { ProfileDataComponent } from './profile/profile-data/profile-data.component';
 import { DirectoryComponent } from './directory/directory.component';
 import { DirListComponent } from './directory/dir-list/dir-list.component';
+import { ProfileDonationsComponent } from './profile/profile-donations/profile-donations.component';
+import { LoaderComponent } from './loader/loader.component';
+import { AccountComponent } from './account/account.component';
+import { SignupComponent } from './account/signup/signup.component';
+import { SigninComponent } from './account/signin/signin.component';
+import { AlertComponent } from './account/alert/alert.component';
+import { ForgetPassComponent } from './account/forget-pass/forget-pass.component';
+import { ResetPassComponent } from './account/reset-pass/reset-pass.component';
+import { VerifyMailComponent } from './account/verify-mail/verify-mail.component';
+import { AdminComponent } from './account/admin/admin.component';
+import { EditAccountComponent } from './account/admin/edit-account/edit-account.component';
+import { ListComponent } from './account/admin/list/list.component';
 
 @NgModule({
   declarations: [
@@ -47,12 +64,28 @@ import { DirListComponent } from './directory/dir-list/dir-list.component';
     ProfileDataComponent,
     DirectoryComponent,
     DirListComponent,
+    ProfileDonationsComponent,
+    LoaderComponent,
+    AccountComponent,
+    SignupComponent,
+    SigninComponent,
+    AlertComponent,
+    ForgetPassComponent,
+    ResetPassComponent,
+    VerifyMailComponent,
+    AdminComponent,
+    EditAccountComponent,
+    ListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LoadingBarHttpClientModule,
+    LoadingBarModule,
+    HttpModule,
+    FormsModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [CommonService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

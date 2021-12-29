@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileComponent implements OnInit {
 
+  profileNav(event: any, navName: any) {
+    let i, tabcontent, tablinks;
+  }
+
+  //https://www.typescriptlang.org/docs/handbook/dom-manipulation.html
+
   constructor() { }
 
   ngOnInit(): void {

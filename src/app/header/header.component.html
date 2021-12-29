@@ -1,33 +1,33 @@
 <div class="header flex">
-    <div class="left-header-section align-center w-100">
-        <ul class="nav-list flex">
-            <li class="nav-item">
-                <a href="#" class="nav-link dark-nav">
-                    FUND ME
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">
-                    Find Fund Raisers
-                </a>
-            </li>
-        </ul>
+  <div class="left-header-section align-center w-100">
+    <ul class="nav-list flex">
+      <li class="nav-item">
+        <a href="fundme" class="nav-link dark-nav"> FUND ME </a>
+      </li>
+      <li class="nav-item">
+        <a
+          [routerLink]="['/dir']"
+          routerLinkActive="router-link-active"
+          class="nav-link"
+        >
+          Find Fund Raisers
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="logo-section align-center">
+    <div class="logo-container">
+      <img src="assets/images/logo.png" alt="Logo" />
     </div>
-    <div class="logo-section align-center">
-        <div class="logo-container">
-            <img src="assets/images/logo.png" alt="Logo">
-        </div>
-    </div>
-    <div class="right-section align-center w-100">
-        <ul class="nav-list flex">
-            <li class="nav-item align-center">
-                <a href="#" class="nav-link">
-                    How It Works
-                </a>
-            </li>
-            <li class="nav-item">
-                <button>Donate Now</button>
-            </li>
-        </ul>
-    </div>
+  </div>
+  <div class="right-section align-center w-100">
+    <ul class="nav-list flex">
+      <li class="nav-item align-center">
+        <a href="#" class="nav-link"> How It Works </a>
+      </li>
+      <li class="nav-item">
+        <button>Donate Now</button>
+      </li>
+    </ul>
+  </div>
 </div>
