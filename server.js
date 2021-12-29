@@ -2,9 +2,11 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const mongoose = require('mongoose')
+const { Profile }  = require('./DB/models/profile.model')
+const { mongoose } = require('./DB/dbConnect')
 
 const app = express()
+app.use(bodyParser.json())
 
 /* ROUTES */
 
@@ -28,8 +30,28 @@ app.post('/login', (req, res) => {
  * GET /profile/:id/:name
  * Purpose: get profile data
  */
-app.get('/profile/:id/:name', (req, res) => {
+app.get('/profile', (req, res) => {
     // We wants to get an array of the data for a specific profile
+    Profile.find().then((profile) => {
+        res.send(profile)
+    }).catch((e) => {
+        res.send(e)
+    })
+})
+app.post('/profile', (req, res) => {
+    // We wants to get an array of the data for a specific profile
+    let firstName = req.body.firstName
+    let lastName = req.body.lastName
+    let email = req.body.email
+
+    let newProfile = new Profile({
+        firstName,
+        lastName,
+        email
+    })
+    newProfile.save().then((profileDoc) => {
+        res.send(profileDoc)
+    })
 })
 
 /**
