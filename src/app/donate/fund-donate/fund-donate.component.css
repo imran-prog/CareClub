@@ -1,5 +1,5 @@
 .mainbody{
-    width: 1200px;
+    width: 1500px;
     
 }
 
@@ -7,18 +7,17 @@
 .card{
   background-color: white;
   width: 300px;
-  height: 350px;
+  height: 370px;
   border: .5px solid white;
-  
+  box-sizing: border-box;
   margin-left: 170px;
   margin-top: 70px;
   border-radius: 15px;
   
   
-  border-color: gray;
-  box-shadow: gray;
+ 
   
-  
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
 }
 .img1{
     
@@ -37,15 +36,27 @@
 }
 .para1{
     margin: 15px;
+    color: rgba(0, 0, 0, 0.6);
 }
 .amount{
     margin-left: 15px;
     margin-top: 25px;
+    font-size: 21px;
+line-height: 25px;
+    
 }
 .btn1{
- margin-left: 90px;
- font-size: 22px;
- border-radius: 10px;
+    
+ margin-left: 50px;
+ font-size: 20px;
+ border-radius: 15px;
+ width: 130px;
+ height: 40px;
+ background: #FFFFFF;
+ 
+ box-sizing: border-box;
+ 
+ 
 }
 .title{
     
@@ -56,47 +67,43 @@
 .ema{
     width: 420px;
     height: 30px;
-    border-radius: 15px;
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
 
 }
 .pas{
     margin-top: 30px;
     width: 420px;
     height: 30px;
-    border-radius: 15px;
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+}
 
-}
-.crdn{
-    width: 220px;
-    height: 30px;
-    border-radius: 15px;
-}
-.cvv{
-    margin-left: 25px;
-    width: 160px;
-    height: 30px;
-    border-radius: 15px;
-}
-.dob{
-    width: 160px;
-    height: 30px;
-    border-radius: 15px;
-}
-.dox{
-    width: 220px;
-    height: 30px;
-    border-radius: 15px;
-    margin-left: 25px;
+.pNum{
+    width: 420px;
+    height: 40px;
+    background: #FFFFFF;
+box-shadow: 0px 0px 8px #02A95C;
+border-radius: 20px;
+border: 1px solid#C4C4C4;
 }
 .btn2{
     width: 420px;
     height: 40px;
-    border-radius: 15px;
+    border-radius: 20px;
+    background: #02A95C;
+border: 1px solid #02A95C;
+box-sizing: border-box;
+
 }
 
 
 .card1{
-    background-color: rgb(219, 217, 217);
+    
     width: 300px;
     height: 390px;
     border: .5px solid white;
@@ -104,10 +111,13 @@
     margin-left: 170px;
     margin-top: 100px;
     border-radius: 15px;
+    margin-bottom: 100px;
     
     
-    border-color: gray;
-    box-shadow: gray;
+   
+   
+  
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
     
     
   }
@@ -125,16 +135,29 @@
 .titletag{
     margin-left: 10px;
     text-align: center;
+    font-weight: bold;
+font-size: 15px;
+line-height: 28px;
+text-align: center;
+
+color: #02A95C;
 }
 .amount1{
     margin-left: 15px;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 21px;
+
+   
+line-height: 25px;
 }
 .btnN{
-    margin-left: 80px;
+    margin-left: 60px;
     font-size: 22px;
     height: 40px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 130px;
+ box-sizing: border-box;
     
    }
 .paraN{
@@ -154,6 +177,8 @@
     width: 230px;
     height: 35px;
     padding: 20px;
+    background: rgba(2, 169, 92, 0.2);
+border-radius: 20px;
     
 }
 .title2{
@@ -161,48 +186,43 @@
     margin-left: 520px;
     margin-top: -400px;
     font-size: 22px;
+    margin-bottom: 100px;
     
+}
+.easypaisa{
+    padding: 30px;
+    font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: rgba(0, 0, 0, 0.6);
+
+font-style: normal;
+
+
 }
 .jazzcash{
-    padding: 30px;
-}
-.crdn1{
-    width: 250px;
-    height: 40px;
-    background-color: rgb(219, 217, 217);
-    border-color: rgb(219, 217, 217);
-}
-.cvv1{
-    margin-left: 25px;
-    margin-top: 20px;
-    width: 180px;
-    height: 40px;
-    background-color: rgb(219, 217, 217);
-    border-color: rgb(219, 217, 217);
+  
+   
+font-style: normal;
     
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-decoration-line: underline;
+
+color: #000000;
 }
-.dob1{
-    width: 180px;
-    height: 40px;
-    margin-top: 28px;
-    background-color: rgb(219, 217, 217);
-    border-color: rgb(219, 217, 217);
-}
-.dox1{
-    width: 250px;
-    height: 40px;
-    
-    margin-left: 25px;
-    background-color: rgb(219, 217, 217);
-    border-color: rgb(219, 217, 217);
-}
+
+
 .btn3{
-    margin-top: 25px;
-    width: 474px;
-    height: 50px;
-    border-radius: 1px;
-    background-color: rgb(219, 217, 217);
-    border-color: rgb(219, 217, 217);
+    width: 420px;
+    height: 40px;
+    border-radius: 20px;
+    background: #02A95C;
+border: 1px solid #02A95C;
+box-sizing: border-box;
+
 }
 .NewPara{
    

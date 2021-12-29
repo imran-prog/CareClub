@@ -1,0 +1,131 @@
+.mainbodydiv{
+    height: 150vh;
+    
+}
+.title{
+    width: 700px;
+height: 60px;
+margin-left: 150px;
+margin-top: 130px;
+background: #FFFFFF;
+box-shadow: 0px 0px 8px #02A95C;
+border-radius: 20px;
+border: 1px solid #C4C4C4;
+}
+.money{
+    width: 286px;
+height: 60px;
+margin-left: 150px;
+margin-top: 50px;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.message{
+    width: 700px;
+height: 270px;
+margin-top: 50px;
+margin-left: 150px;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+
+}
+.para1{
+    font-size: 19px;
+line-height: 23px;
+margin-left: 150px;
+color: rgba(0, 0, 0, 0.6);
+}
+.tag1{
+    color: #02A95C;
+}
+.card{
+   margin-top: -585px; 
+   margin-left: 900px;
+    background-color: white;
+  width: 350px;
+  height: 700px;
+  background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.img1{
+    width: 320px;
+    height: 120px;
+    margin-top: 15px;
+   
+    margin-left: 15px;
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.option{
+    width: 320px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+.address{
+    width: 320px;
+    margin-left: 15px;
+    margin-top: 25px;
+    border-radius: 15px;
+    height: 70px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+.paraPhotos{
+    background: #FFFFFF;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.pic1upload{
+    width: 95px;
+  height: 80px;
+  background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 20px;
+margin-left: 15px;
+}
+.referenceID{
+    width: 320px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+.btn1{
+    background: #02A95C;
+border: 1px solid #02A95C;
+box-sizing: border-box;
+border-radius: 20px;
+width: 320px;
+height: 50px;
+margin-left: 15px;
+margin-top: 15px;
+box-sizing: border-box;
+  
+    font-size: 15px;
+line-height: 31px;
+
+color: #FFFFFF;
+
+
+
+}
